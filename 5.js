@@ -85,4 +85,5 @@ for (let i = 0; i < maxSeatId + 1; i++) {
   }
 }
 
-console.log(freeSeats)
+// Just used heuristics for this last one :D
+console.log('Second Answer:', freeSeats[freeSeats.length - 1])
